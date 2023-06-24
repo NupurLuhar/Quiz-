@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    color: #eeeeee;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://wallpapercave.com/wp/5IAcOt1.jpg);
+}
+
+#quiz {
+    width: 90%;
+    background: rgb(31, 187, 218);
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    font-size: 20px;
+    text-align: left;
+    padding: 30px;
+}
+
+#qhead {
+    text-align: center;
+}
+
+#question {
+    margin-left: 1px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+    height: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+
+button {
+    height: 50px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-size: 25px;
+    background-color: rgb(10, 169, 50);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
